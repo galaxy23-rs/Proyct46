@@ -109,6 +109,8 @@ class Game{
                          break;
                          case 5: fruits.addImage("fruit1", fruit5_img);
                          break;
+                         case 6: fruits.addImage("fruit1", fruit6_img);
+                         break;
                      }
                      fruitGroup.add(fruits);
                      

@@ -9,7 +9,7 @@ var player1,player2;
 var players;
 var fruits;
 var fruitGroup;
-var fruit1_img, fruit2_img, fruit3_img, fruit4_img, fruit5_img;
+var fruit1_img, fruit2_img, fruit3_img, fruit4_img, fruit5_img, fruit6_img;
 var player_img;
 var player1score =0;
 var player2score =0;
@@ -24,6 +24,7 @@ function preload(){
   fruit3_img = loadImage("images/melon2.png");
   fruit4_img = loadImage("images/orange2.png");
   fruit5_img = loadImage("images/pineapple2.png");
+  fruit6_img = loadImage("images/mushroom..png");
   fruitGroup = new Group();
 
   obstacleImage = loadImage("images/mushroom.png")
